@@ -7,56 +7,56 @@ const App = () => {
       id: 1,
       name: "Fisioterapia Ortopédica",
       price: "R$ 120,00 / sessão",
-      image: "/1.svg",
+      image: "/1.png",
       description: "Recuperação pós-cirúrgica, lesões e dores articulares."
     },
     {
       id: 2,
       name: "Fisioterapia Respiratória",
       price: "R$ 110,00 / sessão",
-      image: "/2.svg",
+      image: "/2.png",
       description: "Melhora da função pulmonar em idosos, bebês e pós-COVID."
     },
     {
       id: 3,
       name: "Reabilitação Neurológica",
       price: "R$ 130,00 / sessão",
-      image: "/3.svg",
+      image: "/3.png",
       description: "Atendimento para AVC, Parkinson, lesões medulares e mais."
     },
     {
       id: 4,
       name: "Fisioterapia Esportiva",
       price: "R$ 125,00 / sessão",
-      image: "/4.svg",
+      image: "/4.png",
       description: "Prevenção e tratamento de lesões em atletas e praticantes."
     },
     {
       id: 5,
       name: "Drenagem Linfática",
       price: "R$ 90,00 / sessão",
-      image: "/5.svg",
+      image: "/5.png",
       description: "Redução de inchaços, pós-operatório e relaxamento corporal."
     },
     {
       id: 6,
       name: "Pilates Terapêutico",
       price: "R$ 85,00 / aula",
-      image: "/6.svg",
+      image: "/6.png",
       description: "Fortalecimento, postura e alívio de dores na coluna."
     },
     {
       id: 7,
       name: "Liberação Miofascial",
       price: "R$ 100,00 / sessão",
-      image: "/7.svg",
+      image: "/7.png",
       description: "Alívio de tensões musculares profundas e pontos de gatilho."
     },
     {
       id: 8,
       name: "Avaliação Postural",
       price: "R$ 150,00 (avaliação completa)",
-      image: "/8.svg",
+      image: "/8.png",
       description: "Análise detalhada da sua postura e plano de tratamento personalizado."
     },
   ];
@@ -109,7 +109,7 @@ const App = () => {
       <section 
         className="h-screen bg-cover bg-center bg-no-repeat bg-fixed flex items-center justify-center text-center text-white relative"
         style={{
-          backgroundImage: "url('/fisioterapia.svg')"
+          backgroundImage: "url('/fisioterapia.png')"
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-800 to-transparent opacity-90"></div>
